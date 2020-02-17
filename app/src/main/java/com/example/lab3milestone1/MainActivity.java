@@ -54,6 +54,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.subitem1:
                 Toast.makeText(this, "Sub Item 1 selected", Toast.LENGTH_SHORT).show();
 
+            case R.id.subitem2:
+                Toast.makeText(this, "Sub Item 2 selected", Toast.LENGTH_SHORT).show();
+
                 default:return super.onOptionsItemSelected(item);
         }
     }
